@@ -12,7 +12,7 @@ from cryptopredictor.evaluator.model_evaluator import ModelEvaluator
 from cryptopredictor.forecaster.price_forecaster import PriceForecaster
 from cryptopredictor.visualization.visualizer import Visualizer
 
-def main(use_gui=False):
+def main(use_gui=True):
     if use_gui:
         # Import here to avoid circular imports
         from cryptopredictor.ui.app import launch_gui
@@ -199,7 +199,7 @@ def main(use_gui=False):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Cryptocurrency Price Prediction with KNN')
-    parser.add_argument('--gui', action='store_true', help='Launch the graphical user interface')
+    parser.add_argument('--console', action='store_true', help='Run in console mode instead of GUI')
     args = parser.parse_args()
     
-    main(use_gui=args.gui)
+    main(use_gui=not args.console)
