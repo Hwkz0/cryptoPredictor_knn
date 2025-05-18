@@ -7,6 +7,10 @@ ML app that predicts crypto prices using KNN (K-Nearest Neighbors) regression al
 ![Application Interface](https://github.com/Hwkz0/cryptoPredictor_knn/blob/main/images/Image.png)
 *Application interface*
 
+# Release
+
+https://github.com/Hwkz0/cryptoPredictor_knn/releases/tag/ExeFile
+
 ## Functionality
 
 Python based tool that used historical data to forecast price movements. This uses the KNN regression algorithm. Can generate predictions for multiple values (Close, Open, High, Low).
