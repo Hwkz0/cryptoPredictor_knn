@@ -4,7 +4,7 @@ ML app that predicts crypto prices using KNN (K-Nearest Neighbors) regression al
 
 # Images
 
-![Application Interface](images/image.png)
+![Application Interface](https://github.com/Hwkz0/cryptoPredictor_knn/blob/main/images/Image.png)
 *Application interface*
 
 ## Functionality
@@ -70,13 +70,13 @@ knncryptob/
 
 ## Plots and data
 *Price forecast*
-![Price forecast](output/price_forecast.png)
+![Price forecast](https://github.com/Hwkz0/cryptoPredictor_knn/blob/main/Output%20files/price_forecast.png)
 
 *Correlation Matrix*
-![Correlation Matrix](output/correlation_matrix.png)
+![Correlation Matrix](https://github.com/Hwkz0/cryptoPredictor_knn/blob/main/Output%20files/correlation_matrix.png)
 
 *Actual v predicted Low*
-![Actual v predicted Low](output/actual_vs_predicted_Low.png)
+![Actual v predicted Low](https://github.com/Hwkz0/cryptoPredictor_knn/blob/main/Output%20files/actual_vs_predicted_Low.png)
 
 ## Dependencies
 
